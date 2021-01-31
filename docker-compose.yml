@@ -11,6 +11,9 @@ services:
       LEVEL_SEED: 128388
       DEFAULT_PLAYER_PERMISSION_LEVEL: visitor
       DIFFICULTY: hard
+      # Members:
+      # - Wintermuth (2533274964742991)
+      OPS: 2533274964742991
     ports:
       - 19132:19132/udp
     volumes:
