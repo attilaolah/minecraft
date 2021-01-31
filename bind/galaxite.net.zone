@@ -1,0 +1,10 @@
+@				1D  IN  SOA	localhost. root.localhost. (
+				2021013101	; Serial (yyyymmdd##)
+				1H		; Refresh
+				30M		; Retry
+				1W		; Expiry
+				30M )		; Minimum TTL
+
+				1D  IN	NS	localhost.
+
+play.galaxite.net		1D  IN	CNAME	home.attilaolah.eu.

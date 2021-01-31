@@ -1,0 +1,4 @@
+zone "galaxite.net" {
+	type master;
+	file "galaxite.net.zone";
+};
