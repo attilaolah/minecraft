@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3.3"
 
 services:
   bedrock:
@@ -11,13 +11,18 @@ services:
       LEVEL_SEED: 128388
       DEFAULT_PLAYER_PERMISSION_LEVEL: visitor
       DIFFICULTY: hard
-      # Members:
+      # Ops:
       # - Wintermuth (2533274964742991)
       OPS: 2533274964742991
+      # Members:
+      # - Elzza8077 (2535426640522603)
+      # - UrsliBurgonya (2535412700806819)
+      MEMBERS: 2535426640522603,2535412700806819
     ports:
       - 19132:19132/udp
     volumes:
       - ./bedrock:/data
+    restart: always
     stdin_open: true
     tty: true
   bind:
@@ -29,3 +34,4 @@ services:
       - 53:53/tcp
       - 53:53/udp
       - 127.0.0.1:953:953/tcp
+    restart: always
