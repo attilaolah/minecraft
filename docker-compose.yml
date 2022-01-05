@@ -7,7 +7,7 @@ services:
     environment:
       EULA: "TRUE"
       SERVER_NAME: "Diesbach 2022"
-      LEVEL_NAME: mesa_2021
+      LEVEL_NAME: diesbach_2022
       LEVEL_SEED: 128388
       DEFAULT_PLAYER_PERMISSION_LEVEL: visitor
       DIFFICULTY: hard
