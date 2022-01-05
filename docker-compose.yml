@@ -8,7 +8,8 @@ services:
       EULA: "TRUE"
       SERVER_NAME: "Diesbach 2022"
       LEVEL_NAME: diesbach_2022
-      LEVEL_SEED: 128388
+      # Source: https://youtu.be/A7FOsm75Ebs
+      LEVEL_SEED: 436606647
       DEFAULT_PLAYER_PERMISSION_LEVEL: visitor
       DIFFICULTY: hard
       # Ops:
