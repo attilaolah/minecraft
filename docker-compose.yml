@@ -25,13 +25,3 @@ services:
     restart: always
     stdin_open: true
     tty: true
-  bind:
-    # BIND9 DNS server.
-    # Used for DNS interception on the Nintendo Switch.
-    image: bind
-    build: bind/.
-    ports:
-      - 53:53/tcp
-      - 53:53/udp
-      - 127.0.0.1:953:953/tcp
-    restart: always
