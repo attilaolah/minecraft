@@ -22,7 +22,7 @@ For Nintendo Switch players, the following should be added to `/etc/hosts`:
 ```
 
 The IP is the local address of the Bedrock server. This should then be picked
-up by `syntemd-resolved`, which should contain the folrlowing additional
+up by `systemd-resolved`, which should contain the folrlowing additional
 config:
 
 ```
