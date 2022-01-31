@@ -7,7 +7,7 @@ services:
     environment:
       EULA: "TRUE"
       SERVER_NAME: "Diesbach 2022"
-      LEVEL_NAME: diesbach_2022
+      LEVEL_NAME: seed_436606647
       # Source: https://youtu.be/A7FOsm75Ebs
       LEVEL_SEED: 436606647
       DEFAULT_PLAYER_PERMISSION_LEVEL: visitor
